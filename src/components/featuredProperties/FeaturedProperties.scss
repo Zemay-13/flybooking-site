@@ -1,0 +1,55 @@
+@import "../../styles/base.scss";
+
+.fp {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fpItem {
+    flex: 1;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    .fpImg {
+        overflow: hidden;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .fpName {
+        font-weight: bold;
+    }
+
+    .fpCity {
+        font-weight: 300;
+    }
+
+    .fpPrice {
+        font-weight: 500;
+    }
+
+}
+
+.fpRating {
+    flex: 1;
+
+    button {
+        padding: 3px 5px;
+        margin-right: 10px;
+        background-color: $bg-blue;
+        color: white;
+        font-weight: bold;
+        box-shadow: none;
+        border: none;
+        border-radius: none;
+    }
+
+    span {
+        font-size: 14px;
+    }
+}

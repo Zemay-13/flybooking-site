@@ -1,0 +1,12 @@
+$bg-blue: #003580;
+$blue-light: #0067b7;
+$bg-yellow: #ffaf2a;
+
+.btnHover {
+    transition: 0.2s ease;
+
+    &:hover {
+        background-color: $bg-yellow ;
+        border-radius: 20px;
+    }
+}

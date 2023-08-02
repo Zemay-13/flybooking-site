@@ -1,0 +1,31 @@
+@import "../../styles/base.scss";
+
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 14px;
+    padding-bottom: 30px;
+
+    .fLists {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+
+.fList {
+    list-style-type: none;
+    color: $blue-light;
+    transition: 0.1s ease;
+    cursor: pointer;
+
+    .fListItem {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.fText {
+    padding: 50px 0 0 0;
+}

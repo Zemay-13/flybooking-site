@@ -1,0 +1,48 @@
+.featured {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featuredItem {
+    position: relative;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        .featuredTitles {
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .featuredImg {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        overflow: hidden;
+
+    }
+
+    .featuredTitles {
+        padding: 0 0 10px 10px;
+        position: absolute;
+        bottom: 0;
+        transition: 0.3s ease;
+
+
+
+        .featuredTitle {
+            font-size: 30px;
+        }
+
+        .featuredSubtitle {
+            font-size: 20px;
+        }
+
+
+    }
+}

@@ -1,0 +1,52 @@
+@import "../../styles/base.scss";
+
+.navbar {
+    height: 60px;
+    background-color: $bg-blue;
+    display: flex;
+    justify-content: center;
+
+
+    .navContainer {
+        width: 100%;
+        max-width: 1024px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+}
+
+.logo {
+    font-weight: 600;
+
+    .logoLink {
+        color: white;
+        text-decoration: none;
+    }
+
+
+}
+
+.navItems {
+
+
+    .navButton {
+        margin-left: 50px;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: $bg-blue;
+        transition: 0.3s ease;
+
+        &:hover {
+            background-color: #f5b34a;
+            color: white;
+
+
+        }
+    }
+
+    span {}
+}
